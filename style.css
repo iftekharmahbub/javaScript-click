@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW4A0P8yAM_-9cgYPj3lbi_RtIvkMFyMIjOA&s');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#light{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#light button{
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+#light .on{
+    background-color: #1B4D3E;
+    color: #fff;
+}
+#light .off{
+    background-color: #D2122E;
+    color: #fff;
+}
+#light .on:hover{
+    background-color: #006400;
+    /* background-color: #004526; */
+}
+#light .off:hover{
+    background-color: #AA0000;
+}
+#light .img{
+    margin: 0 35px;
+}
+
